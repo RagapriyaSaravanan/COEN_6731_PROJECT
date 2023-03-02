@@ -1,3 +1,8 @@
+/* Build the Client We want a multithreaded Java client we can configure to upload a day of lift rides to the server and 
+exert various loads on the server. First you need to get a Java client to call your server APIs. 
+Write a simple test that calls the API before proceeding, to establish that you have connectivity. 
+To connect to your remote server, you need to call a client method using the Java 11 HTTP client classes or the Apache Java HTTP API. 
+Each client per thread in a multithreaded environment to simulate multiple clients in concurrency.*/ 
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
